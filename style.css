@@ -334,8 +334,9 @@ section {
 .experience-sub-title {
   color: rgb(0, 0, 0);
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .experience-details-container {
