@@ -67,7 +67,7 @@ a:hover {
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
   transform: scale(1.2);
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
@@ -110,6 +110,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  text-transform: uppercase;
 }
 
 .menu-links a {
