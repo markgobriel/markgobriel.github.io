@@ -392,6 +392,10 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.project_details_text {
+  margin-bottom: 1rem;
+}
+
 /* CONTACT */
 
 #contact {
