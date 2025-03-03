@@ -72,9 +72,9 @@ a::before {
 
 a:hover {
   color: black;
-  font-weight: 900;
-  /* text-decoration: underline;
-  text-underline-offset: 0.3rem; */
+  /* font-weight: 900; */
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
   text-decoration-color: rgb(0, 0, 0);
 }
 
@@ -392,6 +392,9 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project-img {
@@ -408,6 +411,7 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  min-height: 3rem;
 }
 
 .project_details_text {
